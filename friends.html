@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header_title">Friends</h1>
+      <div class="screen-header_icons">
+        <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link" href="">
+      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component_column">
+          <img
+            src="KakaoTalk_20220718_181318173.jpg"
+            class="user-component_avatar user-component_avatar--xl"
+            alt="서은"
+          />
+          <div class="user-component_text">
+            <h4 class="user-component_title">서은</h4>
+            <!--<h6 class="user-component_subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+
+        <div class="user-component_column"></div>
+      </div>
+      <div class="friends-screen_channel">
+        <div class="friends-screen_channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="KakaoTalk_20220718_181318173.jpg"
+              class="user-component_avatar user-component_avatar--sm"
+              alt="서은"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+
+          <div class="user-component_column">
+            <span>2 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#">
+            <span class="nav_notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#">
+            <span class="nav_search"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/08939663ad.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
