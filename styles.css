@@ -15,6 +15,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/no-mobile.css";
 body {
   color: #2e342e;
   font-family: "Open Sans", sans-serif;
