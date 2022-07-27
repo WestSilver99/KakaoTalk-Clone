@@ -1,3 +1,3 @@
 # KakaoTalk Clone
 
-HTML, CSS 기초 익히기!
+To learn basic HTML / CSS !
